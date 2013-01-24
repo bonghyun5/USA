@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>U.S.A.</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div class = "top-bar">
+	<div class = "attached">
+		<div class = "name">
+			<span>
+				<%= link_to "U.S.A.", home_index_path %>
+			</span>
+		</div>
+		<ul class = "right">
+			<li><%= link_to "home"%></li>
+			<li><%= link_to "about"%></li>
+			<li><%= link_to "officers"%></li>
+			<li><%= link_to "contact" %></li>
+		</ul>
+	</div>	
+</div>
+	
+	
+<%= yield %>
+
+
+
+<div class = "footer">
+	<footer class = "row">
+		<div class = "five columns">
+			<p><b>© U.S.A 2013</b></p>
+		</div>
+		<div class = "five columns">
+			<p>Questions? Contact us! </p>
+		</div>
+		<div class = "two columns">
+			<%= link_to "Contact Us", home_index_path, class: "small button" %>
+		</div>
+	</footer>
+</div>
+
+
+</body>
+</html>
