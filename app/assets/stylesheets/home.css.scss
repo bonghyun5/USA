@@ -140,6 +140,28 @@ $index-second-color: #687C97;
 
 }
 
+#about-pic1
+{
+	height: 250px;
+	margin: 0 30px 30px 0;
+	float:left;
+}
+
+.sub-links
+{
+	background-color: #E0EEEE;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	h4 {
+		font-weight: 300;
+	}
+}
+
+.main-content
+{
+	margin-top: 50px;
+	min-height: 340px;
+}
 
 .footer {
 	text-align: center;
@@ -148,15 +170,22 @@ $index-second-color: #687C97;
 	p {
 		margin: 0;
 		color: white;
-		padding: 30px 0;
+		padding: 20px 0;
 		height: 100%;
 	}
 
 	.button{
 		background-color: white;
 		color: #3F3F3F;
-		margin-top: 29px;
+		margin-top: 19px;
 		margin-left: -290px;
 	}
 }
 
+#brothers-row
+{
+	p {
+		font-size: 13px;
+	}
+
+}

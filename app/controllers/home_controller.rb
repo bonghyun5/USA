@@ -9,5 +9,6 @@ class HomeController < ApplicationController
   end
 
   def contact
+    @contact_info = ContactInfo.new
   end
 end

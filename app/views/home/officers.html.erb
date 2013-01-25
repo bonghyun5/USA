@@ -1,2 +1,103 @@
-<h1>Home#officers</h1>
-<p>Find me in app/views/home/officers.html.erb</p>
+<header class = "sub-links">
+	<div class = "row">
+		<div class = "twelve columns">
+			<h1> Officers </h1>
+			<h4> Who we are...</h4>
+		</div>
+	</div>
+</header>
+
+
+<div class = "main-content">
+	<div class = "row">
+		<div class = "two columns">
+
+			<ul class = "side-nav">
+				  <li><%= link_to "← Home",home_index_path%></li>		
+				  <li class="divider"></li>
+				  <li class = "active"><%= link_to "Officers", home_officers_path %></li>
+			</ul>
+
+
+
+
+		</div>
+
+		<div class = "ten columns" id = "brothers-row">
+			<div class = "row" >
+				<div class = "three columns">
+					<img src="/assets/elizabeth.jpg"/>
+					<p>
+					<b>Paul Matsiras </b></br>
+					Statistics & Econ</br>
+					Class of 2013
+					</p>
+				</div>
+				<div class = "three columns">
+					<img src="/assets/rahul.jpg" />
+					<p>
+					<b>Tristan Tao</b></br>
+					Computer Science & Statistics</br>
+					Class of 2014
+					</p>
+				</div>
+				<div class = "three columns">
+					<img src="/assets/bonghyun.jpg" />
+					<p>
+					<b>Cathy Yi</b></br>
+					Statistics</br>
+					Class of 2013
+					</p>
+				</div>
+				<div class = "three columns">
+					<img src="/assets/matt.jpg"/>
+					<p>
+					<b>Carmen Ng</b></br>
+					Statistics</br>
+					Class of 2014
+					</p>
+				</div>	
+			</div>
+			</br>
+			<div class = "row">
+
+				<div class = "three columns">
+					<img src="/assets/ino.jpg" />
+										<p>
+					<b>Arif Ali</b></br>
+					Statistics</br>
+					Class of 2014
+					</p>
+				</div>
+				<div class = "three columns">
+					<img src="/assets/kim.jpg" />
+										<p>
+					<b>Tobias Eccleshall</b></br>
+					Statistics</br>
+					Class of 2014
+					</p>
+				</div>
+
+				<div class = "three columns">
+					<img src="/assets/kim.jpg" />
+										<p>
+					<b>Bonghyun Kim</b></br>
+					Statistics & Computer Science</br>
+					Class of 2014
+					</p>
+				</div>
+				<div class = "three columns">
+				</div>
+
+
+
+			</div>
+
+
+
+	
+
+		</div>
+
+	</div>
+</div>

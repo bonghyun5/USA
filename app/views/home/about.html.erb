@@ -1,2 +1,37 @@
-<h1>Home#about</h1>
-<p>Find me in app/views/home/about.html.erb</p>
+<header class = "sub-links">
+	<div class = "row">
+		<div class = "twelve columns">
+			<h1> About </h1>
+			<h4> What is Undergraduate Statistics Association @ UC Berkeley?</h4>
+		</div>
+	</div>
+</header>
+
+<div class = "main-content">
+	<div class = "row">
+		<div class = "two columns">
+
+			<ul class = "side-nav">
+				  <li><%= link_to "← Home", home_index_path%></li>		
+				  <li class="divider"></li>
+				  <li class = "active"><%= link_to "About", home_about_path%></li>
+			</ul>
+
+
+
+		</div>
+
+		<div class = "ten columns">
+			<img src="/assets/USA_flyer.png" id = "about-pic1"/>
+			<p>
+<b>U</b>ndergraduate Statistics Association is ....
+			</p>
+			<p>
+<b>W</b>e aim to ....
+			</p>
+			<p>
+<b>B</b>y joining us ...
+			</p>
+		</div>
+	</div>
+</div>

@@ -1,4 +1,7 @@
 USA::Application.routes.draw do
+  resources :contact_infos
+
+
   get "home/index"
 
   get "home/about"
